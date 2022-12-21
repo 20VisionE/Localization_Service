@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{21865F54-EE3A-4970-82FC-F7BF5E8B71F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_Service_Domain", "Src\Localization_Service_Domain\Localization_Service_Domain.csproj", "{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_Service_Application", "Src\Localization_Service_Application\Localization_Service_Application.csproj", "{A962787A-D610-46DE-A178-B3471A396B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_Service_Infrastructure", "Src\Localization_Service_Infrastructure\Localization_Service_Infrastructure.csproj", "{3571A005-6972-47D4-9E44-F4216CBDA141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_Service_Persistence", "Src\Localization_Service_Persistence\Localization_Service_Persistence.csproj", "{45F21D31-E1CF-4013-A695-A65905E20F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_Service_Presentation", "Src\Localization_Service_Presentation\Localization_Service_Presentation.csproj", "{7EAC0982-E1E3-41CB-BC62-2642A91D9B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A962787A-D610-46DE-A178-B3471A396B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A962787A-D610-46DE-A178-B3471A396B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A962787A-D610-46DE-A178-B3471A396B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A962787A-D610-46DE-A178-B3471A396B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3571A005-6972-47D4-9E44-F4216CBDA141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3571A005-6972-47D4-9E44-F4216CBDA141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3571A005-6972-47D4-9E44-F4216CBDA141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3571A005-6972-47D4-9E44-F4216CBDA141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F21D31-E1CF-4013-A695-A65905E20F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F21D31-E1CF-4013-A695-A65905E20F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F21D31-E1CF-4013-A695-A65905E20F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F21D31-E1CF-4013-A695-A65905E20F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAC0982-E1E3-41CB-BC62-2642A91D9B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAC0982-E1E3-41CB-BC62-2642A91D9B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAC0982-E1E3-41CB-BC62-2642A91D9B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAC0982-E1E3-41CB-BC62-2642A91D9B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C9DF08A-0D61-40D6-B0BC-C638D6CFCA1E} = {21865F54-EE3A-4970-82FC-F7BF5E8B71F7}
+		{A962787A-D610-46DE-A178-B3471A396B6C} = {21865F54-EE3A-4970-82FC-F7BF5E8B71F7}
+		{3571A005-6972-47D4-9E44-F4216CBDA141} = {21865F54-EE3A-4970-82FC-F7BF5E8B71F7}
+		{45F21D31-E1CF-4013-A695-A65905E20F9F} = {21865F54-EE3A-4970-82FC-F7BF5E8B71F7}
+		{7EAC0982-E1E3-41CB-BC62-2642A91D9B97} = {21865F54-EE3A-4970-82FC-F7BF5E8B71F7}
+	EndGlobalSection
+EndGlobal
