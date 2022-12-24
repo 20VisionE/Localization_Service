@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Localization_Service_Application\Localization_Service_Application.csproj" />
+  </ItemGroup>
+
 </Project>
