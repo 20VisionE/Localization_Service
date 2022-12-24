@@ -1,6 +1,5 @@
 ﻿namespace Localization_Service_Presentation.Controllers;
-[Route("api/[controller]")]
-[ApiController]
+
 public class HomePageController : ApiControllerBase.ApiControllerBase
 {
     public HomePageController()
