@@ -6,7 +6,7 @@ public class ContactUsPageController : ApiControllerBase.ApiControllerBase
 {
 
     [HttpGet("GetContactUsPageContact")]
-    public async Task<ActionResult<GetContactUsPageContentDto>> GetContactUsPageContentAsync([FromQuery] GetContactUsPageResourceContentQuery dto, CancellationToken cancellationToken)
+    public async Task<ActionResult<GetContactUsPageContentDto>> GetContactUsPageContentAsync([FromQuery] GetAllContactUsPageResourceContentQuery dto, CancellationToken cancellationToken)
      => Ok(await Mediator.Send(dto, cancellationToken));
 
 

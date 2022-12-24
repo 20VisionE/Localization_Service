@@ -1,0 +1,5 @@
+﻿namespace Localization_Service_Application.Queries.SubEmployeesPageResourceContent.GetAll;
+
+public class GetAllSubEmployeesPageResourceContentQuery:IRequest<GetSubEmployeesPageContentDto>
+{
+}

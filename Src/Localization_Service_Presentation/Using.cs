@@ -15,5 +15,9 @@ global using Localization_Service_Application.Queries.ArtcilePageResourceContent
 global using Localization_Service_Application.Common.Models.Dtos.Artcile;
 global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
 global using Localization_Service_Application.Queries.AboutUsPageResourceContent.GetAll;
-
-
+global using Localization_Service_Application.Queries.ServicesPageResourceContent.GetAll;
+global using Localization_Service_Application.Common.Models.Dtos.ServicesPage;
+global using Localization_Service_Application.Queries.SubEmployeesPageResourceContent.GetAll;
+global using Localization_Service_Application.Common.Models.Dtos.SubEmployeesPage;
+global using Microsoft.AspNetCore.Localization;
+global using Serilog;

@@ -1,0 +1,5 @@
+﻿namespace Localization_Service_Application.Queries.ServicesPageResourceContent.GetAll;
+
+public class GetAllServicesPageResourceContentQuery:IRequest<GetServicesPageContenetDto>
+{
+}

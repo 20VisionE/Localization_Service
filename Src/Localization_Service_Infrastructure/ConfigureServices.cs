@@ -1,6 +1,4 @@
-﻿
-
-namespace Localization_Service_Infrastructure;
+﻿namespace Localization_Service_Infrastructure;
 public static class ConfigureServices
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
@@ -10,6 +8,8 @@ public static class ConfigureServices
         services.AddTransient<IEmployeesResourceManager, EmployeesResourceManager>();
         services.AddTransient<IArticleResourceManager, ArticleResourceManager>();
         services.AddTransient<IAboutUsPageResourceManager, AboutUsPageResourceManager>();
+        services.AddTransient<IServicesPageResourceManager, ServicesPageResourceManager>();
+        services.AddTransient<ISubEmployeePageResourceManager, SubEmployeePageResourceManager>();
         return services;
     }
 }

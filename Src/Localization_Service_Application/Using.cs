@@ -11,8 +11,8 @@ global using Localization_Service_Application.Common.Models.Dtos.Artcile;
 global using Localization_Service_Application.Common.Interfaces.ArticlePageResourceManager;
 global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
 global using Localization_Service_Application.Common.Interfaces.AboutUsPageResourceManger;
-
-
-
-
+global using Localization_Service_Application.Common.Models.Dtos.ServicesPage;
+global using Localization_Service_Application.Common.Interfaces.ServicesPageResourceManager;
+global using Localization_Service_Application.Common.Models.Dtos.SubEmployeesPage;
+global using Localization_Service_Application.Common.Interfaces.SubEmployeePageResourceManager;
 

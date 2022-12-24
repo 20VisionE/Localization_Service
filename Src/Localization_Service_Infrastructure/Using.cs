@@ -18,7 +18,14 @@ global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
 global using Localization_Service_Application.Common.Interfaces.AboutUsPageResourceManger;
 global using Localization_Service_Domain.ResourcesFile.AboutUsPage;
 global using Localization_Service_Infrastructure.Services.AboutUsPageResourceManager;
-
+global using Localization_Service_Application.Common.Models.Dtos.ServicesPage;
+global using Localization_Service_Application.Common.Interfaces.ServicesPageResourceManager;
+global using Localization_Service_Domain.ResourcesFile.ServicesPage;
+global using Localization_Service_Infrastructure.Services.ServicesPageResourceManager;
+global using Localization_Service_Application.Common.Models.Dtos.SubEmployeesPage;
+global using Localization_Service_Application.Common.Interfaces.SubEmployeePageResourceManager;
+global using Localization_Service_Domain.ResourcesFile.SubTeamPage;
+global using Localization_Service_Infrastructure.Services.SubEmployeePageResourceManager;
 
 
 
