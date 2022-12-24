@@ -8,11 +8,11 @@ public class ArticleResourceManager : IArticleResourceManager
         this.stringLocalizer = stringLocalizer;
     }
 
-    public async Task<GetArticleContentDto> GetArticleContentAsync()
+    public async Task<GetArticlePageContentDto> GetArticleContentAsync()
     {
-        var reuslt = await Task.FromResult(new GetArticleContentDto
+        var reuslt = await Task.FromResult(new GetArticlePageContentDto
         {
-            Tilte = stringLocalizer.GetString(nameof(GetArticleContentDto.Tilte)).Value,
+            Tilte = stringLocalizer.GetString(nameof(GetArticlePageContentDto.Tilte)).Value,
         });
         return reuslt;
     }

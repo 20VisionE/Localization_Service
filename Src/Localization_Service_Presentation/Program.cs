@@ -1,9 +1,6 @@
 try
 {
-
-
     var builder = WebApplication.CreateBuilder(args);
-
     #region Localization
     builder.Services.AddLocalization();
     #endregion
@@ -23,15 +20,9 @@ try
         .WriteTo.Console()
         .ReadFrom.Configuration(ctx.Configuration));
     #endregion
-
     #region AddService To configuration
     builder.Services.AddControllers();
     #endregion
-
-
-
-
-
     #region Swagger Configuration
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
@@ -39,8 +30,6 @@ try
     var app = builder.Build();
 
     #endregion
-
-
     #region Localization
     var supportedCultures = new[]
        {
@@ -58,8 +47,6 @@ try
         SupportedUICultures = supportedCultures
     });
     #endregion
-
-
     #region Configure the HTTP request pipeline.
 
 

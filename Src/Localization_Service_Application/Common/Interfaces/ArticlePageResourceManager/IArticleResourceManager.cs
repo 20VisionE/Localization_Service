@@ -2,5 +2,5 @@
 
 public interface IArticleResourceManager
 {
-    Task<GetArticleContentDto> GetArticleContentAsync();
+    Task<GetArticlePageContentDto> GetArticleContentAsync();
 }

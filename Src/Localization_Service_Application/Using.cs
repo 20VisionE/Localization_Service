@@ -15,4 +15,5 @@ global using Localization_Service_Application.Common.Models.Dtos.ServicesPage;
 global using Localization_Service_Application.Common.Interfaces.ServicesPageResourceManager;
 global using Localization_Service_Application.Common.Models.Dtos.SubEmployeesPage;
 global using Localization_Service_Application.Common.Interfaces.SubEmployeePageResourceManager;
-
+global using MediatR.Pipeline;
+global using Microsoft.Extensions.Logging;
