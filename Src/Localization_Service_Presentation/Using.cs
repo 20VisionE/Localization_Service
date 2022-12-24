@@ -13,7 +13,7 @@ global using Localization_Service_Application.Common.Models.Dtos.ContactUs;
 global using Localization_Service_Application.Queries.ContactUsResourceContent.GetAll;
 global using Localization_Service_Application.Queries.ArtcilePageResourceContent.GetAll;
 global using Localization_Service_Application.Common.Models.Dtos.Artcile;
-
-
+global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
+global using Localization_Service_Application.Queries.AboutUsPageResourceContent.GetAll;
 
 

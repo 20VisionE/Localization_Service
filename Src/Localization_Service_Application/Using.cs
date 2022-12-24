@@ -9,7 +9,8 @@ global using Microsoft.Extensions.DependencyInjection;
 global using System.Reflection;
 global using Localization_Service_Application.Common.Models.Dtos.Artcile;
 global using Localization_Service_Application.Common.Interfaces.ArticlePageResourceManager;
-
+global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
+global using Localization_Service_Application.Common.Interfaces.AboutUsPageResourceManger;
 
 
 

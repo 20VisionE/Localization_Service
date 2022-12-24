@@ -14,10 +14,10 @@ global using Localization_Service_Application.Common.Models.Dtos.Artcile;
 global using Localization_Service_Application.Common.Interfaces.ArticlePageResourceManager;
 global using Localization_Service_Domain.ResourcesFile.ArticlePage;
 global using Localization_Service_Infrastructure.Services.ArticlePageResourceManager;
-
-
-
-
+global using Localization_Service_Application.Common.Models.Dtos.AboutUs;
+global using Localization_Service_Application.Common.Interfaces.AboutUsPageResourceManger;
+global using Localization_Service_Domain.ResourcesFile.AboutUsPage;
+global using Localization_Service_Infrastructure.Services.AboutUsPageResourceManager;
 
 
 
