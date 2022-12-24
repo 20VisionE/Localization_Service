@@ -6,6 +6,7 @@ public static class ConfigureServices
         services.AddTransient<IHomePageResourceManager, HomePageContenetManager>();
         services.AddTransient<IContactUsPageResourceManager, ContactUsPageResourceManager>();
         services.AddTransient<IEmployeesResourceManager, EmployeesResourceManager>();
+        services.AddTransient<IArticleResourceManager, ArticleResourceManager>();
         return services;
     }
 }

@@ -10,3 +10,16 @@ global using Localization_Service_Application.Common.Models.Dtos.ContactUs;
 global using Localization_Service_Application.Common.Interfaces.ContactUsPageResourceManager;
 global using Localization_Service_Domain.ResourcesFile.ContactUs;
 global using Localization_Service_Infrastructure.Services.ContactUsPageResourceManager;
+global using Localization_Service_Application.Common.Models.Dtos.Artcile;
+global using Localization_Service_Application.Common.Interfaces.ArticlePageResourceManager;
+global using Localization_Service_Domain.ResourcesFile.ArticlePage;
+global using Localization_Service_Infrastructure.Services.ArticlePageResourceManager;
+
+
+
+
+
+
+
+
+

@@ -11,8 +11,8 @@ global using Microsoft.AspNetCore.Mvc;
 global using System.Globalization;
 global using Localization_Service_Application.Common.Models.Dtos.ContactUs;
 global using Localization_Service_Application.Queries.ContactUsResourceContent.GetAll;
-
-
+global using Localization_Service_Application.Queries.ArtcilePageResourceContent.GetAll;
+global using Localization_Service_Application.Common.Models.Dtos.Artcile;
 
 
 

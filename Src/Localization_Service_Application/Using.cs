@@ -7,8 +7,8 @@ global using Localization_Service_Application.Common.Models.Dtos.HomePage;
 global using MediatR;
 global using Microsoft.Extensions.DependencyInjection;
 global using System.Reflection;
-
-
+global using Localization_Service_Application.Common.Models.Dtos.Artcile;
+global using Localization_Service_Application.Common.Interfaces.ArticlePageResourceManager;
 
 
 
